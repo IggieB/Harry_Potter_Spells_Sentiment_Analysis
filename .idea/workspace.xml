@@ -6,6 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="5557f966-defd-4dd0-b84a-64c7ae36bb9d" name="Changes" comment="All function and documentation done, readme missing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dis_rob_emotion_analyzed_paragraphs.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dis_rob_emotion_analyzed_sentences.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem_book_paragraphs.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem_book_sentences.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem_book_test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paragraphs_w_spell_col.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rob_emotion_analyzed_paragraphs.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rob_emotion_analyzed_sentences.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sent_analyzed_paragraphs.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sent_analyzed_sentences.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentences_w_spell_col.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_analysis.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_dis_rob_emotion.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_rob_emotion.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_vader.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +37,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/IggieB/Harry_Potter_Spells_Sentiment_Analysis.git",
+    "accountId": "d89fb327-a46c-4271-a71c-dd50f0615509"
+  }
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -138,17 +159,17 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.spells_scraping" />
         <item itemvalue="Python.plots" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.find_spells_sentences" />
-        <item itemvalue="Python.spells_scraping" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
       </set>
     </attachedChunks>
   </component>
@@ -169,8 +190,27 @@
       <option name="project" value="LOCAL" />
       <updated>1718699676428</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="All function and documentation done, readme missing">
+      <option name="closed" value="true" />
+      <created>1718707189389</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718707189389</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="All function and documentation done, readme missing" />
