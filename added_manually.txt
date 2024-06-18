@@ -1,0 +1,37 @@
+
+4:
+[[['but', 'got', 'get', 'going', 'harry', 'supposed', 'packing', 'added', 'guiltily', 'looking', 'around', 'mess', 'floor'], 
+['oh', 'yeah', 'said', 'harry', 'grabbing', 'books'], 
+['don', 'stupid', 'much', 'quicker', 'i', 'pack'], 
+['cried', 'tonks', 'waving', 'wand', 'long', 'sweeping', 'movement', 'floor'], 
+['books', 'clothes', 'telescope', 'scales', 'soared', 'air', 'flew', 'pellmell', 'trunk'], 
+['it', 'neat', 'said', 'tonks', 'walking', 'trunk', 'looking', 'jumble', 'inside'],
+
+
+['but', 'got', 'get', 'going', 'harry', 'supposed', 'packing', 'added', 'guiltily', 'looking', 'around', 'mess', 'floor', 'oh', 'yeah', 'said', 'harry', 'grabbing', 'books', 'don', 'stupid', 'much', 'quicker', 'i', 'pack', 'cried', 'tonks', 'waving', 'wand', 'long', 'sweeping', 'movement', 'floor', 'books', 'clothes', 'telescope', 'scales', 'soared', 'air', 'flew', 'pellmell', 'trunk', 'it', 'neat', 'said', 'tonks', 'walking', 'trunk', 'looking', 'jumble', 'inside']
+
+
+3:
+['the', 'maze', 'growing', 'darker', 'every', 'passing', 'minute', 'sky', 'overhead', 'deepened', 'navy'], 
+['he', 'reached', 'second', 'fork'], 
+['point', 'me', 'whispered', 'wand', 'holding', 'flat', 'palm'], 
+['the', 'wand', 'spun', 'around', 'pointed', 'toward', 'right', 'solid', 'hedge'], 
+['that', 'way', 'north', 'knew', 'needed', 'go', 'northwest', 'center', 'maze'], 
+
+
+['the', 'maze', 'growing', 'darker', 'every', 'passing', 'minute', 'sky', 'overhead', 'deepened', 'navy', 'he', 'reached', 'second', 'fork', 'point', 'me', 'whispered', 'wand', 'holding', 'flat', 'palm', 'the', 'wand', 'spun', 'around', 'pointed', 'toward', 'right', 'solid', 'hedge', 'that', 'way', 'north', 'knew', 'needed', 'go', 'northwest', 'center', 'maze']
+
+
+3:
+['harry', 'broke', 'run'], 
+['he', 'choice', 'paths', 'ahead'], 
+['point', 'me', 'whispered', 'wand', 'spun', 'around', 'pointed', 'righthand', 'one'], 
+['he', 'dashed', 'one', 'saw', 'light', 'ahead'], 
+['the', 'triwizard', 'cup', 'gleaming', 'plinth', 'hundred', 'yards', 'away']]]
+
+
+['harry', 'broke', 'run', 'he', 'choice', 'paths', 'ahead', 'point', 'me', 'whispered', 'wand', 'spun', 'around', 'pointed', 'righthand', 'one', 'he', 'dashed', 'one', 'saw', 'light', 'ahead', 'the', 'triwizard', 'cup', 'gleaming', 'plinth', 'hundred', 'yards', 'away']
+
+
+
+

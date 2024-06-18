@@ -1,0 +1,20 @@
+book_num,sentence,sentiment_label,sentiment_score
+0,uncle vernon go pale whisper something sound like mimblewimble hagrid stare wildly harry,neutral,0.8555636405944824
+0,she grab harry wand tap lock whisper alohomora,neutral,0.8958371877670288
+0,wingardium leviosa shout wave long arm like windmill,neutral,0.8588120937347412
+0,it winggardium leviosa make gar nice long,positive,0.7542540431022644
+0,hermione roll sleeve gown flick wand say wingardium leviosa,neutral,0.8793984055519104
+0,hermione sunk floor fright ron pull wand know go hear cry first spell come head wingardium leviosa,neutral,0.8110005855560303
+0,now forget locomotor mortis hermione mutter ron slip wand sleeve,neutral,0.7356662750244141
+0,petrificus totalus cry point neville,neutral,0.6950445175170898
+0,they tug heave door budge even hermione try alohomora charm,neutral,0.8882768750190735
+1,he roll sleeve brandish wand bellow peskipiksi pesternomi,neutral,0.8259724378585815
+1,both swung wands head point opponent snape cry expelliarmus there dazzle flash scarlet light lockhart blast foot he fly backward stage smash wall slide sprawl floor,neutral,0.8789493441581726
+1,he stumble everything still seem work waste time harry pointed wand straight malfoy shout rictusempra,negative,0.5869535207748413
+1,harry hang back vague feeling would unsporte bewitch malfoy floor mistake gasp breath malfoy point wand harry knee choke tarantallegra next second harry leg begin jerk around control kind quickstep,neutral,0.7614625692367554
+1,finite incantatem shout harry foot stop dance malfoy stop laugh able look,neutral,0.6532884836196899
+1,malfoy raise wand quickly bellow serpensortia,neutral,0.8370864987373352
+1,she tap diary three time say aparecium,neutral,0.8060912489891052
+1,he pull wand shout expelliarmus snape disarm lockhart malfoy find diary shoot hand air,neutral,0.7991119623184204
+1,harry take wand murmur lumos tiny light appear end enough let watch path sign spider,neutral,0.8855612277984619
+1,lockhart barely raise harry bellow expelliarmus,neutral,0.8188984394073486
