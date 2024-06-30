@@ -312,10 +312,3 @@ spells_list = [word.lower() for spell in spells_list for word in spell.split()]
 # df_list = import_sentences_paragraphs(files_paths)
 # print(run_lemmatization(df_list[0], "sentence"))
 # print(run_lemmatization(df_list[1], "paragraph"))
-########### Add spells column section ###########
-files_paths = ['dis_rob_emotion_analyzed_sentences.csv',
-               'dis_rob_emotion_analyzed_paragraphs.csv']
-df_list = import_sentences_paragraphs(files_paths, False)
-df_sentences, df_paragraphs = df_list[0], df_list[1]
-create_spell_column(df_sentences, spells_list, "sentence")
-create_spell_column(df_paragraphs, spells_list, "paragraph")

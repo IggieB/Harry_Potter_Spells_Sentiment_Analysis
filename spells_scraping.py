@@ -1,4 +1,4 @@
-########### Imports ###########
+A
 import requests
 from bs4 import BeautifulSoup
 
@@ -31,6 +31,6 @@ def save_spells(spells_list):
         file.write(spell + "\n")
     file.close()
 
-########### Call space###########
+########### Call space ###########
 spells_list = scrape_spells()
 save_spells(spells_list)

@@ -4,23 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5557f966-defd-4dd0-b84a-64c7ae36bb9d" name="Changes" comment="All function and documentation done, readme missing">
+    <list default="true" id="5557f966-defd-4dd0-b84a-64c7ae36bb9d" name="Changes" comment="File re-organized, need to write readme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dis_rob_emotion_analyzed_paragraphs.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dis_rob_emotion_analyzed_sentences.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lem_book_paragraphs.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lem_book_sentences.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lem_book_test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paragraphs_w_spell_col.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rob_emotion_analyzed_paragraphs.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rob_emotion_analyzed_sentences.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sent_analyzed_paragraphs.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sent_analyzed_sentences.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentences_w_spell_col.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_analysis.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_dis_rob_emotion.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_rob_emotion.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_vader.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_books_spells_paragraphs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/all_books_spells_paragraphs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_books_spells_sentences.csv" beforeDir="false" afterPath="$PROJECT_DIR$/all_books_spells_sentences.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spells_scraping.py" beforeDir="false" afterPath="$PROJECT_DIR$/spells_scraping.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/IggieB/Harry_Potter_Spells_Sentiment_Analysis.git",
-    "accountId": "d89fb327-a46c-4271-a71c-dd50f0615509"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;IggieB&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/IggieB/Harry_Potter_Spells_Sentiment_Analysis.git&quot;,
+    &quot;accountId&quot;: &quot;d89fb327-a46c-4271-a71c-dd50f0615509&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -55,19 +49,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.find_spells_sentences.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.plots.executor": "Run",
-    "Python.spells_scraping.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/iggie/Documents/Uni/HarryPotterSpells",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.find_spells_sentences.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plots.executor&quot;: &quot;Run&quot;,
+    &quot;Python.spells_scraping.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/iggie/Documents/Uni/HarryPotterSpells&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.plots">
     <configuration name="find_spells_sentences" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HarryPotterSpells" />
@@ -198,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718707189389</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="File re-organized, need to write readme">
+      <option name="closed" value="true" />
+      <created>1718725690973</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718725690973</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +216,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="All function and documentation done, readme missing" />
-    <option name="LAST_COMMIT_MESSAGE" value="All function and documentation done, readme missing" />
+    <MESSAGE value="File re-organized, need to write readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="File re-organized, need to write readme" />
   </component>
 </project>
