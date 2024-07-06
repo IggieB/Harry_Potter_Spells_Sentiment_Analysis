@@ -28,15 +28,16 @@ def sentiment_across_books(df, model_col_name, text_col):
     ax = sns.countplot(data=df, x='book_num_adj', hue=model_col_name)
     # adding annotations on top of each bar
     for p in ax.patches:
-        height = p.get_height()
-        ax.annotate(f'{height}', (p.get_x() + p.get_width() / 2., height),
-                    ha='center', va='center', xytext=(0, 5),
-                    textcoords='offset points')
+        height = int(p.get_height())
+        if height > 0:
+            ax.annotate(f'{height}', (p.get_x() + p.get_width() / 2., height),
+                        ha='center', va='center', xytext=(0, 5),
+                        textcoords='offset points')
     # setting the title and labels
     plt.title(f'Distribution of {MODELS_DICT[model_col_name]} {text_col}s\' '
               f'Sentiments Across Books')
     plt.xlabel('Book Number')
-    plt.ylabel('Count of Sentiments')
+    plt.ylabel('Sentiment Counts')
     plt.show()
 
 
