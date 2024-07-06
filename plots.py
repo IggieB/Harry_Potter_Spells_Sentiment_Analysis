@@ -254,6 +254,40 @@ def top_spell_by_emotion(df, model_col_name):
         plt.show()
 
 
+def all_spells_frequency(df):
+    """
+    This function organizes all spells by frequency of appearances, saves the
+    results as a new CSV file and plots all spells with 4 appearances or more.
+    :param df: df: the dataframe containing the text samples
+    (sentences/paragraphs)
+    :return: nothing. generates the relevant plot and saves the sub_df
+    generated
+    """
+    spell_counts = df['spell'].value_counts().reset_index()
+    spell_counts.to_csv("all_spells_counts.csv", index=False)
+    spell_counts.columns = ['spell', 'count']
+    # filtering spells with more than 3 appearances
+    spell_counts = spell_counts[spell_counts['count'] > 3]
+    # plotting using Seaborn
+    plt.figure(figsize=(14, 8))
+    ax = sns.barplot(data=spell_counts, x='spell', y='count',
+                     palette='viridis', hue='spell')
+    # add counts above the bars
+    for p in ax.patches:
+        height = p.get_height()
+        ax.annotate(f'{int(height)}', (p.get_x() + p.get_width() / 2., height),
+                    ha='center', va='center', xytext=(0, 5),
+                    textcoords='offset points')
+    # setting titles and labels
+    plt.title('Spells By Frequency')
+    plt.xlabel('Spell')
+    plt.ylabel('Count')
+    plt.xticks(rotation=45,
+               ha='right')  # rotating x-axis labels for better visibility
+    plt.tight_layout()
+    plt.show()
+
+
 ########### Importing the data  ###########
 files_paths = ['vader_sentiment_sentences.csv',
                'vader_sentiment_paragraphs.csv']
@@ -275,3 +309,5 @@ sentences_df, paragraphs_df = df_list[0], df_list[1]
 ########### Top spells for emotion ###########
 # top_spell_by_emotion(paragraphs_df, 'rob_emotion')
 # top_spell_by_emotion(paragraphs_df, 'dis_rob_emotion')
+########### Spells appearances ###########
+# all_spells_frequency(paragraphs_df)

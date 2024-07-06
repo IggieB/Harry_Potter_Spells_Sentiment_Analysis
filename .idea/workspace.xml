@@ -4,13 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5557f966-defd-4dd0-b84a-64c7ae36bb9d" name="Changes" comment="Additional tweaks and documentation">
+    <list default="true" id="5557f966-defd-4dd0-b84a-64c7ae36bb9d" name="Changes" comment="Rounded numbers in plots">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plots.py" beforeDir="false" afterPath="$PROJECT_DIR$/plots.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/Sentiments by book/paragraphs_sentiment_by_book_roberta.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/Sentiments by book/paragraphs_sentiment_by_book_roberta.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/Sentiments by book/paragraphs_sentiment_by_book_vader.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/Sentiments by book/paragraphs_sentiment_by_book_vader.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/Sentiments by book/sentences_sentiment_by_book_roberta.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/Sentiments by book/sentences_sentiment_by_book_roberta.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/Sentiments by book/sentences_sentiment_by_book_vader.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/Sentiments by book/sentences_sentiment_by_book_vader.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/Top spells by emotions/Roberta/top_spells_fear_roberta.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/Top spells by emotions/Roberta/top_spells_fear_roberta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/Top spells by emotions/Roberta/top_spells_neutral_roberta.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/Top spells by emotions/Roberta/top_spells_neutral_roberta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/Top spells by emotions/distil_roberta/top_spells_anger_distil_roberta.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/Top spells by emotions/distil_roberta/top_spells_anger_distil_roberta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/Top spells by emotions/distil_roberta/top_spells_fear_distil_roberta.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/Top spells by emotions/distil_roberta/top_spells_fear_distil_roberta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/Top spells by emotions/distil_roberta/top_spells_joy_distil_roberta.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/Top spells by emotions/distil_roberta/top_spells_joy_distil_roberta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/Top spells by emotions/distil_roberta/top_spells_neutral_distil_roberta.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/Top spells by emotions/distil_roberta/top_spells_neutral_distil_roberta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/Top spells by emotions/distil_roberta/top_spells_sadness_distil_roberta.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/Top spells by emotions/distil_roberta/top_spells_sadness_distil_roberta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/Top spells by emotions/distil_roberta/top_spells_surprise_distil_roberta.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/Top spells by emotions/distil_roberta/top_spells_surprise_distil_roberta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/Top spells by sentiments/negative_top_spells_roberta.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/Top spells by sentiments/negative_top_spells_roberta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/Top spells by sentiments/neutral_top_spells_roberta.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/Top spells by sentiments/neutral_top_spells_roberta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/Top spells by sentiments/neutral_top_spells_vader.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/Top spells by sentiments/neutral_top_spells_vader.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/Top spells by sentiments/positive_top_spells_roberta.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/Top spells by sentiments/positive_top_spells_roberta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vader_sentiment_paragraphs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/vader_sentiment_paragraphs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vader_sentiment_sentences.csv" beforeDir="false" afterPath="$PROJECT_DIR$/vader_sentiment_sentences.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719746614215</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Rounded numbers in plots">
+      <option name="closed" value="true" />
+      <created>1720261167654</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720261167654</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,6 +246,7 @@
     <MESSAGE value="All function and documentation done, readme missing" />
     <MESSAGE value="File re-organized, need to write readme" />
     <MESSAGE value="Additional tweaks and documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Additional tweaks and documentation" />
+    <MESSAGE value="Rounded numbers in plots" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rounded numbers in plots" />
   </component>
 </project>
