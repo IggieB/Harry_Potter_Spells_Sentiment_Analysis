@@ -205,9 +205,9 @@ if __name__ == "__main__":
     # run_sentiment_analysis(emot_paragraphs, "paragraph",
     #                        "dis-roberta-emotions")
     ########### VADER sentiment analysis ###########
-    spell_col_paths = ['sentences_w_spell_col.csv',
-                       'paragraphs_w_spell_col.csv']
-    spell_col_dfs = import_sentences_paragraphs(spell_col_paths)
-    spell_sentences, spell_paragraphs = spell_col_dfs[0], spell_col_dfs[1]
-    run_sentiment_analysis(spell_sentences, 'sentence', 'vader')
-    run_sentiment_analysis(spell_paragraphs, 'paragraph', 'vader')
+    # spell_col_paths = ['sentences_w_spell_col.csv',
+    #                    'paragraphs_w_spell_col.csv']
+    # spell_col_dfs = import_sentences_paragraphs(spell_col_paths)
+    # spell_sentences, spell_paragraphs = spell_col_dfs[0], spell_col_dfs[1]
+    # run_sentiment_analysis(spell_sentences, 'sentence', 'vader')
+    # run_sentiment_analysis(spell_paragraphs, 'paragraph', 'vader')
